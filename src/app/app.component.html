@@ -20,7 +20,7 @@
     </div>
   </div>
 
-  <button  type="button" (click)="restartGame()" class="restart-button">Restart Game</button>
+  <button *ngIf="gameWon" type="button" (click)="restartGame()" class="restart-button">Restart Game</button>
 </div>
 
 
