@@ -1,0 +1,26 @@
+<div class="game-wrapper">
+  <h1>Card Game</h1>
+
+  <div class="instructions">
+    <ul>
+      <li>Click on any one card, memorize the number beneath</li>
+      <li>Click on another card to find if you found the matching number</li>
+      <li>Wrong Guess, Nws!! Try Again.</li>
+      <li>Win, play, Enjoy, & Test your memorizing power!!</li>
+    </ul>
+  </div>
+
+  <div class="game">
+    <div
+      *ngFor="let data of combinedDataNew"
+      class="card"
+      (click)="showVal(data)"
+    >
+      {{ data.show ? data.val : '' }}
+    </div>
+  </div>
+
+  <button  type="button" (click)="restartGame()" class="restart-button">Restart Game</button>
+</div>
+
+
