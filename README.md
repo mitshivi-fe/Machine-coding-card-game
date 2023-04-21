@@ -2,6 +2,8 @@
 
 A simple card game project based on Angular 10. This project is created to practice simple questions for machine coding rounds in frontend interviews. The project was created in a timed setting of 1 hour.
 
+Please try out the game at https://mitshivi-fe.github.io/Machine-coding-card-game/
+
 ## Getting Started
 
 These instructions will help you set up and run the project on your local machine.
